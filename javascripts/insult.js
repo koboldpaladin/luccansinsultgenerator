@@ -64,7 +64,7 @@ function insult1(){
   noun[59]="Glory Hole";
   noun[60]="Grope";
   noun[61]="G-string";
-  noun[62]="Hand";
+  noun[62]="Handy";
   noun[63]="Hog";
   noun[64]="Corndog";
   noun[65]="Hummer";
@@ -147,7 +147,7 @@ function insult1(){
   noun[142]="Pudding pop";
   noun[143]="Donkey punch";
   noun[144]="Queef";
-  noun[145]="Rim job";
+  noun[145]="Rim";
   noun[146]="Rod";
   noun[147]="Rutting";
   noun[148]="Scrot";
@@ -193,6 +193,18 @@ function insult1(){
   noun[188]="Squirtle";
   noun[189]="Boy horny";
   noun[190]="Dick ab";
+  noun[191]="Garbage person";
+  noun[192]="Worm";
+  noun[193]="Power";
+  noun[194]="Ooze";
+  noun[195]="Tenser's";
+  noun[196]="Bigby's";
+  noun[197]="Evard's Black";
+  noun[198]="Leomund's Secret";
+  noun[199]="Leomund's Tiny";
+  noun[200]="Mordenkainen’s";
+  noun[201]="Power Word";
+  noun[202]="Tasha’s Hideous";
 
   
  
@@ -277,7 +289,7 @@ function insult2(){
  object[70]="Prostitute";
  object[71]="Job";
  object[72]="Tray";
- object[73]="Gapper";
+ object[73]="Gaper";
  object[74]="Gagger";
  object[75]="Bag";
  object[76]="Bagger";
@@ -343,12 +355,26 @@ object[135]="Wagon";
 object[136]="Flaggon";
 object[137]="Fluffer";
 object[138]="Barrel";
-object[139]="Furvert"
-object[140]="Quiver"
-object[141]="Sheath"
-object[142]="Pride parade"
-
-
+object[139]="Furvert";
+object[140]="Quiver";
+object[141]="Sheath";
+object[142]="Pride parade";
+object[143]="Chaser";
+object[144]="Burrito";
+object[145]="Beholder";
+object[146]="Elemental";
+object[147]="Monster";
+object[148]="Orc";
+object[149]="Demon";
+object[150]="Devil";
+object[151]="Golem";
+object[152]="Ogre";
+object[153]="Vampire";
+object[154]="Bear";
+object[155]="Witch";
+object[156]="Magic Mouth";
+object[157]="Bag of devouring";
+object[158]="Gauntlet";
 
  random_insult2 = Math.floor(Math.random()*object.length);
  document.getElementById("insult_box2") .value=object[random_insult2];
